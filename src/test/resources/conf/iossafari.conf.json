@@ -1,0 +1,19 @@
+{
+	"server": "hub-cloud.browserstack.com",
+	"user": "sanjeev157",
+	"key": "nXdp1R66DoHZu11KHFpF",
+
+	"capabilities": {
+		"browserstack.debug": true,
+		"browserstack.console": "errors"
+	},
+
+	"environments": {
+    	"bs": {
+    		"device": "iPhone 6",
+    		"realMobile": "true",
+    		"os_version": "11.2",
+      		"browser": "safari"
+  		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"server": "hub-cloud.browserstack.com",
+	"user": "sanjeev157",
+	"key": "nXdp1R66DoHZu11KHFpF",
+
+	"capabilities": {
+		"browserstack.debug": true,
+		"browserstack.console": "errors"
+	},
+
+	"environments": {
+  		"bs_2": {
+    			"device": "Samsung Galaxy S8",
+    			"realMobile": "true",
+    			"os_version": "7.0",
+				"browser": "chrome"
+  			}
+	}
+}

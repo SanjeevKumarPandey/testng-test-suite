@@ -1,0 +1,16 @@
+{
+	"server": "hub-cloud.browserstack.com",
+	"user": "sanjeev157",
+	"key": "nXdp1R66DoHZu11KHFpF",
+
+	"capabilities": {
+		"browserstack.debug": true,
+		"browserstack.console": "errors"
+	},
+
+	"environments": {
+    	"safari": {
+      		"browser": "safari"
+    	}
+	}
+}

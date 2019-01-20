@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="combined" parallel="tests" thread-count="20">
+        <suite-files>
+        <suite-file path="chrome.testng.xml" />
+        <suite-file path="ff.testng.xml" />
+        <suite-file path="ie.testng.xml" />
+        <suite-file path="safari.testng.xml" />
+        <suite-file path="androidchrome.testng.xml" />
+        <suite-file path="iossafari.testng.xml" />           
+    </suite-files>
+</suite>

@@ -1,0 +1,39 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "sanjeev157",
+  "key": "nXdp1R66DoHZu11KHFpF",
+
+  "capabilities": {
+    "browserstack.debug": true,
+    "browserstack.networkLogs": true,
+    "acceptSslCerts": true,
+    "browserstack.console": "verbose"
+  },
+
+  "environments": {
+    "chrome": {
+      "browser": "chrome"
+    },
+    "firefox": {
+      "browser": "firefox"
+    },
+    "safari": {
+      "browser": "safari"
+    },
+    "ie": {
+      "browser": "internet explorer"
+    },
+    "bs": {
+    	"device": "iPhone 6",
+    	"realMobile": "true",
+    	"os_version": "11.2",
+    	"browser": "safari"
+  	},
+  	"bs_2": {
+    	"device": "Samsung Galaxy S8",
+    	"realMobile": "true",
+    	"os_version": "7.0",
+    	"browser": "chrome"
+  	}
+  }
+}
